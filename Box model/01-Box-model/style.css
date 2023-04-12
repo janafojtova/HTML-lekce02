@@ -2,4 +2,26 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
+h1{
+    border-width:10px;
+    border-style:dashed;
+    border-color: blue;
+    padding:30px;
+    margin:30px 20px 10px 0px;
+    text-align:center;
+    width:30%;
+    margin: 50px auto;
+    
+}
 
+p{
+    border-top: 3px dotted green;
+    border-bottom: 10px solid yellow;
+    border-left: 10px dashed pink;
+}
+
+img{
+    border:3px solid black;
+    border-radius: 50%;
+    width:30%;
+}
